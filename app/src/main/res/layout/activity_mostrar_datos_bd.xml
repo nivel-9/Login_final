@@ -31,7 +31,7 @@
 
                                 <!-- Cabecera de la tabla -->
                                 <TableRow
-                                    android:background="#6A1B9A"
+                                    android:background="#661895"
                                     android:padding="8dp">
 
                                         <TextView
