@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
     EditText email, password;
     Button acceso;
     //jass estuvo aqui
-
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
