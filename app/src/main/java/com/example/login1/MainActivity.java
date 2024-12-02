@@ -16,9 +16,12 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
-
+ Jassive
     EditText email, password;
     Button acceso;
+     EditText email, password;
+     Button acceso;
+ master
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
