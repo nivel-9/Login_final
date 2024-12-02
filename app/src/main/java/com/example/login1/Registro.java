@@ -32,13 +32,13 @@ import java.util.Calendar;
 
 public class Registro extends AppCompatActivity {
 
-    TextView texto;
-    Spinner sp1, spinnerNivel;
+        TextView texto;
+         Spinner sp1, spinnerNivel;
     EditText editTextDate2, editTextPassword, editTextPhone, editTextNombre, editTextUsuario;
     RadioGroup radioGroupGenero;
     CheckBox checkBoxEducacion, checkBoxTecnologia, checkBoxComunicacion, checkBoxSociedad;
-    Switch activarEnvio;
-    Button acceso;
+            Switch activarEnvio;
+        Button acceso;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
