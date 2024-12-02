@@ -17,8 +17,8 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
-    EditText email, password;
-    Button acceso;
+                EditText email, password;
+            Button acceso;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -46,11 +46,11 @@ public class MainActivity extends AppCompatActivity {
                 String correo=email.getText().toString().toString();
                 String pass=password.getText().toString().toString();
                 if(correo.equals("ana@gmail.com") && pass.equals("123")){
-                    Intent intencion = new Intent(getApplicationContext(), RegistroFileStream.class);
-                    intencion.putExtra("email", correo);
-                    intencion.putExtra("status", 1);
-                    intencion.putExtra("casado", false);
-                    startActivity(intencion);
+                            Intent intencion = new Intent(getApplicationContext(), RegistroFileStream.class);
+                            intencion.putExtra("email", correo);
+                                intencion.putExtra("status", 1);
+                          intencion.putExtra("casado", false);
+                       startActivity(intencion);
 
                 }else{
                     Toast.makeText(getApplicationContext(), "Contraseña incorrecta", Toast.LENGTH_LONG).show();
