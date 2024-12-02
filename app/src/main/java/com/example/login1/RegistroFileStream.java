@@ -44,7 +44,7 @@ public class RegistroFileStream extends AppCompatActivity {
     CheckBox checkBoxEducacion, checkBoxTecnologia, checkBoxComunicacion, checkBoxSociedad;
     Switch activarEnvio;
     Button acceso;
-
+        //diego modifico esto
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
