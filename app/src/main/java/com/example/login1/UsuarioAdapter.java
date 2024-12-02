@@ -9,9 +9,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 public class UsuarioAdapter extends RecyclerView.Adapter<UsuarioAdapter.UsuarioViewHolder> {
-    private List<Usuario> usuarioList;
+            private List<Usuario> usuarioList;
 
-    public UsuarioAdapter(List<Usuario> usuarioList) {
+            public UsuarioAdapter(List<Usuario> usuarioList) {
         this.usuarioList = usuarioList;
     }
 
@@ -24,16 +24,17 @@ public class UsuarioAdapter extends RecyclerView.Adapter<UsuarioAdapter.UsuarioV
 
     @Override
     public void onBindViewHolder(@NonNull UsuarioViewHolder holder, int position) {
-        Usuario usuario = usuarioList.get(position);
-        holder.tvNombre.setText(usuario.getNombre());
-        holder.tvGenero.setText(usuario.getGenero());
-        holder.tvFechaNacimiento.setText(usuario.getFechaNacimiento());
-        holder.tvUsuario.setText(usuario.getUsuario());
-        holder.tvContraseña.setText(usuario.getContraseña());
-        holder.tvTelefono.setText(usuario.getTelefono());
-        holder.tvNivelEstudios.setText(usuario.getNivelEstudios());
-        holder.tvIntereses.setText(usuario.getIntereses());
+             Usuario usuario = usuarioList.get(position);
+            holder.tvNombre.setText(usuario.getNombre());
+            holder.tvGenero.setText(usuario.getGenero());
+            holder.tvFechaNacimiento.setText(usuario.getFechaNacimiento());
+            holder.tvUsuario.setText(usuario.getUsuario());
+            holder.tvContraseña.setText(usuario.getContraseña());
+            holder.tvTelefono.setText(usuario.getTelefono());
+            holder.tvNivelEstudios.setText(usuario.getNivelEstudios());
+            holder.tvIntereses.setText(usuario.getIntereses());
         // Configura más TextViews según los datos que desees mostrar
+        //jass
     }
 
     @Override

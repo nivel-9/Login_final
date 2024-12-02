@@ -196,10 +196,12 @@ public class RegistroSQLite extends AppCompatActivity {
     // Método para obtener intereses seleccionados
     private String getSelectedInterests() {
         StringBuilder interests = new StringBuilder();
-        CheckBox cb1 = findViewById(R.id.checkBox);
-        CheckBox cb2 = findViewById(R.id.checkBox2);
-        CheckBox cb3 = findViewById(R.id.checkBox3);
-        CheckBox cb4 = findViewById(R.id.checkBox4);
+                CheckBox cb1 = findViewById(R.id.checkBox);
+            CheckBox cb2 = findViewById(R.id.checkBox2);
+            CheckBox cb3 = findViewById(R.id.checkBox3);
+            CheckBox cb4 = findViewById(R.id.checkBox4);
+
+            //jassive estuvo aqui :p
 
         if (cb1.isChecked()) interests.append(cb1.getText().toString()).append(", ");
         if (cb2.isChecked()) interests.append(cb2.getText().toString()).append(", ");
