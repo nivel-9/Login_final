@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Login1</string>
+    <string-array name="nivel_estudio">
+        <item>Seleccionar opción</item>
+        <item>Preescolar</item>
+        <item>Primaria</item>
+        <item>Secundaria</item>
+        <item>Medio Superior</item>
+        <item>Superior</item>
+    </string-array>
+</resources>
